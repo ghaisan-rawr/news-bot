@@ -36,8 +36,7 @@ KEYWORDS = [
 STATE_FILE = "sent_news.json"
 MAX_ITEMS_PER_RUN = 8  # avoid Telegram spam if many hits at once
 
-DISCORD_WEBHOOK_URL = os.environ.get("https://discord.com/api/webhooks/1522857467074318338/MDidQRQrt_k2NTIctCOh-4-D2c3JfkWRO_17_KGG-R-TZIT8HzIVxdoa-oLPkRkRpBLd")
-
+DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 
 # ---------- HELPERS ----------
 
